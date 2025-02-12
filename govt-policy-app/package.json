@@ -1,0 +1,35 @@
+{
+  "name": "govt-policy-app",
+  "version": "1.0.0",
+  "description": "A full-stack MERN application to centralize and automate government policy registrations.",
+  "main": "backend/app.js",
+  "scripts": {
+    "start": "node backend/app.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon backend/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "concurrently": "^5.3.0",
+    "axios": "^0.21.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "keywords": [
+    "MERN",
+    "government",
+    "policies",
+    "registration",
+    "machine learning"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
